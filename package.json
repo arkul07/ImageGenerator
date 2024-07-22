@@ -1,0 +1,15 @@
+{
+  "name": "imagegenerator",
+  "version": "1.0.0",
+  "description": "![Image Generation App](https://i.ibb.co/p0f27C2/Thumbnail-9.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
